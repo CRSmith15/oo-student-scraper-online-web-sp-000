@@ -26,7 +26,7 @@ class Student
   end
 
   def self.all
-    
+    @@all.to_a 
   end
 end
 
